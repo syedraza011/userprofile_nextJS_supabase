@@ -1,0 +1,41 @@
+.pmntBox {
+    margin: 20px;
+    padding: 20px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    display: flex;
+    flex-direction: column;
+}
+
+.pmntHeadBox {
+    margin: 10px;
+    padding: 10px;
+    border: solid whitesmoke 5px;
+    color: 	silver;
+    display: inline-block;
+    /* transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear; */
+    text-align: center;
+    font-size: x-large;
+}
+
+.crdDtlBox {
+    margin: 10px;
+    padding: 10px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    display: inline-block;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+/* .pmntHeadBox:hover, */
+.pmntBox:hover,
+.crdDtlBox:hover {
+    color: silver
+}

@@ -1,0 +1,14 @@
+.flightCardBox {
+    margin: 20px;
+    padding: 20px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.flightCardBox:hover {
+    /* background-color: darkgray; */
+    color: silver;
+  }

@@ -1,0 +1,15 @@
+.cnctBox {
+    margin: 25px;
+    padding: 25px;
+    font-size: large;
+    border: solid whitesmoke 5px;
+    color: 	grey;
+    /* transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear; */
+}
+
+/* .cnctBox:hover {
+    background-color: black;
+    color: silver;
+  } */

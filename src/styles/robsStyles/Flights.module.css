@@ -1,0 +1,36 @@
+.flightsBox {
+    margin: 20px;
+    padding: 20px;
+    border: solid whitesmoke 0.5px;
+    color: 	#2F4F4F;
+    transition-property: background color;
+    
+    transition-timing-function: linear;
+    font-size: x-large;
+}
+
+.textBox {
+    margin: 5px;
+    padding: 5px;
+}
+
+.btnBox {
+    margin: 5px;
+    padding: 5px;
+    border: solid silver 5px;
+    color: silver;
+    display: inline;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.flightsBox:hover {
+    /* background-color: darkgray; */
+    color: silver;
+  }
+
+.btnBox:hover {
+    background-color: blue;
+    color: silver;
+}

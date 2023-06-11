@@ -1,0 +1,27 @@
+.desPlnts {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+  
+.desPlnts > * {
+  margin: 2%;
+  padding: 2%;
+  border: solid whitesmoke 5px;
+  color: 	#2F4F4F;
+  transition-property: background color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+  
+.desPlntsText {
+  font-size: large;
+  max-width: 600px;
+}
+
+.desPlntsText:hover {
+  /* background-color: darkgray; */
+  color: silver;
+}

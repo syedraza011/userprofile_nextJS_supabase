@@ -1,0 +1,50 @@
+.chckOutBox {
+    margin: 20px;
+    padding: 20px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    display: table;
+    transition-property: background color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+.headBox {
+    margin: 5px;
+    padding: 5px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration: solid;
+    font-size: large;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+}
+
+.textBox {
+    margin: 5px;
+    padding: 5px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    width: 60%;
+    float: left;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.btnBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chckOutBox:hover,
+.headBox:hover,
+.textBox:hover {
+    color: silver;
+}

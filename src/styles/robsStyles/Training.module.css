@@ -1,0 +1,43 @@
+.trainBox {
+    margin: 15px;
+    padding: 15px;
+    /* border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    display: table;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear; */
+}
+
+.trainHeadBox {
+    margin: 15px;
+    padding: 15px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: x-large;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+}
+
+.trainingBox {
+    margin: 15px;
+    padding: 15px;
+    border: solid whitesmoke 5px;
+    color: 	#2F4F4F;
+    font-size: large;
+    transition-property: background color;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.trainBox.trainBox:hover,
+.trainHeadBox:hover,
+.trainingBox:hover {
+    color: silver;
+
+}
